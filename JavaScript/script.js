@@ -101,9 +101,16 @@
 // const madeAnotherString = myArray.join();
 // console.log(madeAnotherString);
 
-function hello(name = "Anirban") {
-  console.log(name);
-}
+// function hello(name = "Anirban") {
+//   console.log(name);
+// }
 
-hello(); // Anirban -> will print the default value
-hello("Roy"); // Roy -> Will print the parameter value
+// hello(); // Anirban -> will print the default value
+// hello("Roy"); // Roy -> Will print the parameter value
+
+// Arrow function and anonymous function
+console.log("Arrow and Anonymous function.");
+
+(function () {
+  console.log("Hello Ani");
+})();
