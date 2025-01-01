@@ -111,6 +111,11 @@
 // Arrow function and anonymous function
 console.log("Arrow and Anonymous function.");
 
-(function () {
-  console.log("Hello Ani");
-})();
+// (function () {
+//   console.log("Hello Ani");
+// })();
+
+function logkey(event) {
+  console.log(`You passed "${event.key}".`);
+}
+textBox.addEventListner("keydown", logkey);
