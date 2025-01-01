@@ -115,7 +115,14 @@ console.log("Arrow and Anonymous function.");
 //   console.log("Hello Ani");
 // })();
 
-function logkey(event) {
-  console.log(`You passed "${event.key}".`);
-}
-textBox.addEventListner("keydown", logkey);
+// function logkey(event) {
+//   console.log(`You passed "${event.key}".`);
+// }
+// textBox.addEventListner("keydown", logkey);
+
+// arrowFn = (() => {
+//   let a = 4;
+//   return a;
+// })();
+arrowFn = (num) => num * 8;
+console.log(arrowFn(4));
