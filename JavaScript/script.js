@@ -94,9 +94,16 @@
 // }
 // draw();
 
-const myArray = ["I", "love", "chocolate", "cackes"];
-const madeAString = myArray.join(" + ");
-console.log(madeAString);
+// const myArray = ["I", "love", "chocolate", "cackes"];
+// const madeAString = myArray.join(" + ");
+// console.log(madeAString);
 
-const madeAnotherString = myArray.join();
-console.log(madeAnotherString);
+// const madeAnotherString = myArray.join();
+// console.log(madeAnotherString);
+
+function hello(name = "Anirban") {
+  console.log(name);
+}
+
+hello(); // Anirban -> will print the default value
+hello("Roy"); // Roy -> Will print the parameter value
