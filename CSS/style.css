@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: auto;
+  display: flex;
+}
+.container {
+  display: flex;
+  height: 50vh;
+  width: 300px;
+  /* min-height: 150px;
+  max-height: 500px; */
+  /* flex-direction: column; */
+  /* justify-content: center;
+  align-items: center; */
+  border: 2px solid black;
+  gap: 6px;
+  justify-content: space-evenly;
+  /* align-items: stretch; */
+}
+.num {
+  font-size: 16px;
+  width: 30px;
+  background-color: red;
+  border: 2px solid rgb(82, 5, 5);
+  /* vertical-align: middle;
+  text-align: center; */
+  line-height: 30px;
+  border-radius: 5px;
+}
