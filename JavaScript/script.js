@@ -109,7 +109,7 @@
 // hello("Roy"); // Roy -> Will print the parameter value
 
 // Arrow function and anonymous function
-console.log("Arrow and Anonymous function.");
+// console.log("Arrow and Anonymous function.");
 
 // (function () {
 //   console.log("Hello Ani");
@@ -124,5 +124,29 @@ console.log("Arrow and Anonymous function.");
 //   let a = 4;
 //   return a;
 // })();
-arrowFn = (num) => num * 8;
-console.log(arrowFn(4));
+// arrowFn = (num) => num * 8;
+// console.log(arrowFn(4));
+
+// const originals = [1, 2, 4];
+// const double = originals.map((item) => item * 2);
+// console.log(double);
+
+// const a = 4;
+// const b = 5;
+// const sum = a + b;
+// console.log(sum);
+// console.trace(sum);
+// const a = 5;
+// const b = 10;
+
+// function add() {
+//   return c;
+// }
+
+// function print() {
+//   add();
+// }
+
+// print();
+window.console.error("Error 1");
+console.log("Testing error 2");
