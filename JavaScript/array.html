@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array methods</title>
+  </head>
+  <body>
+    <h1>JavaScript Array</h1>
+    <p>This is for the js Array</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+      const fruits = ["Apple", "Banana", "Orange"];
+      document.getElementById("demo1").innerHTML = fruits.join(" * ");
+      console.log(fruits.shift());
+      //   console.log(fruits.shift());
+      document.getElementById("demo2").innerHTML = fruits.join(" * ");
+      console.log(fruits.unshift("Pine Apple"));
+      document.getElementById("demo3").innerHTML = fruits.join(" * ");
+      const arrConcat = fruits.concat(fruits.shift());
+      document.getElementById("demo4").innerHTML = fruits.join(" * ");
+    </script>
+  </body>
+</html>
