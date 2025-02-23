@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getting screen Cordinates</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #track {
+        background-color: goldenrod;
+        height: 200px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Move your mouse to see its location.</p>
+    <div id="track"></div>
+    <p id="log"></p>
+    <script>
+      let track = document.querySelector("#track");
+      track.addEventListener("mousemove", (e) => {
+        let log = document.querySelector("#log");
+        log.innerText = `
+            Screen X/Y: (${e.screenX}, ${e.screenY})
+            Clint X/Y: (${e.clientX}, ${e.clientY})`;
+      });
+    </script>
+  </body>
+</html>
